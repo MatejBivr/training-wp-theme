@@ -1,0 +1,149 @@
+/*
+Theme Name: My theme
+Author: bivr
+Description: learn to work
+Version: 0.1
+License: GNU General Public License v2 or later
+*/
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+h1{
+	font-size: 28px;
+	colro: darkgray;
+}
+
+h2{
+	font-size: 26px;
+}
+
+.main{
+	margin: 32px;
+}
+
+h5{
+	font-weight: light;
+	font-size: 14px;
+	color; darkgray;
+}
+
+/*menu*/
+
+ul.menu{	
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+}
+
+ul.menu li {
+	padding: 0 16px;
+}
+
+.menu-header,
+.menu-footer{
+	background-color: lightblue;
+	padding: 16px 32px;
+}
+
+.menu-header{
+	font-size: 28px;
+	border-bottom: 1px solid darkgray;
+	box-shadow: 2px 0px 5px darkgray;
+	height: 30px;
+}
+
+.menu-footer{
+	font-size: 14px;
+}
+
+.menu-header li {
+	padding: 0 16px;
+	font-weight: bold;
+}
+
+.menu-header li:first-of-type{
+	padding-left: 0;
+}
+
+.menu-header li:last-of-type{
+	padding-right: 0;
+}
+
+.menu-header a:link,
+.menu-header a:visited{
+	color: darkgray;
+	text-decoration: none;
+}
+
+.menu-header a:hover,
+.menu-header a:active{
+	color: teal;
+	text-decoration: none;
+}
+
+.nav-links{
+	float: left;
+}
+
+.search-form{
+	font-size: 16px;
+	float: right;
+}
+
+.current-menu-item a:link,
+.current-menu-item a:visited{
+	color: teal;
+}
+
+.menu-footer a:link,
+.menu-footer a:visited{
+	color: darkgray;
+	text-decoration: none;
+}
+
+.menu-footer a:hover,
+.menu-footer a:active{
+	color: teal;
+	text-decoration: none;
+}
+
+.menu-footer li:after {
+	content: " | ";
+	color: darkgray;
+}
+
+.menu-footer li:last-of-type:after{
+	content:"";
+}
+
+/*posts*/
+
+.blog-post{
+	border-bottom: 1px solid darkgray;
+}
+.blog-post:last-of-type {
+	border:none;
+}
+
+.post-info{
+	font-weight: light;
+	font-size: 14px;
+	color; darkgray;
+}
+
+.post-info a{
+	color; darkgray;
+	text-decoration: none;
+}
+
+.post-info a:hover,
+.post-info a:active{
+	color; teal;
+	text-decoration: none;
+}
